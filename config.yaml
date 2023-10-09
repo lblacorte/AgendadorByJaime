@@ -5,6 +5,13 @@ environment:
   message-token: c7ptbA7De0nvnvagiGEgbC:APA91bE1AABlRKEjUB_HCB_yVKmocYxOgym2ebWlpP6hCjMYpTcgiTMiKTu7KZgTMLIrv55SieM0fLqWBIiMLULrwTDISoszte9zMAVaMfQqt9cxAHaxJ47moYT628v9JMBQftaLVxKm
 
 schedules:
+  - weekday: Mon
+    restaurant: 2
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: false
+    
   - weekday: Tue
     restaurant: 2
     vegetarian: false
@@ -12,14 +19,14 @@ schedules:
     lunch: true
     dinner: false
 
-  - weekday: Thu
+  - weekday: Wed
     restaurant: 2
     vegetarian: false
     coffee: false
     lunch: true
     dinner: false
 
-  - weekday: Fri
+  - weekday: Thu
     restaurant: 2
     vegetarian: false
     coffee: false
