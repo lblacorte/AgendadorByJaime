@@ -32,3 +32,10 @@ schedules:
     coffee: false
     lunch: true
     dinner: false
+
+  - weekday: Fri
+    restaurant: 2
+    vegetarian: false
+    coffee: false
+    lunch: true
+    dinner: false
